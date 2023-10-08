@@ -39,10 +39,6 @@ a:link, a:visited{
     padding: 3em 16em;
 }
 
-.hero-left {
-   flex-wrap: wrap; 
-}
-
 .hero-left p{
     color: #e5e7eb;
     font-size: 18px;
@@ -103,7 +99,7 @@ img {
 }
 
 .info-imgs {
-    padding: 6em 0;
+    padding: 6em 0em;
 }
 
 .text {
@@ -134,13 +130,10 @@ cite{
 
 .cta {
     padding: 8em 10em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .cta-btn {
-    padding: 3em 12em;
+    padding: 2em;
     background-color: #3882f6;
     border-radius: 16px;
     color: #e5e7eb;
@@ -157,11 +150,13 @@ cite{
     border-style: solid;
     color: white;
     text-align: center;
+    font-size: 18px;
 }
 
 .right-txt {
     display:flex;
     align-items: center;
+    gap: 12px;
 }
 
 footer {
